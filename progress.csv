@@ -1,0 +1,3 @@
+problem,pattern,difficulty,date,time_min,result,attempts,hints_used,next_review,cue,notes
+0001-two-sum,01-arrays-hashing,Easy,2026-11-25,10,Solved,1,No,2026-12-02,"Need O(1) complement lookup while iterating once -> hash map value-to-index","Clean pass; watch duplicate element ordering"
+0049-group-anagrams,01-arrays-hashing,Medium,2026-11-25,15,Solved,1,No,2026-12-02,"Group strings by equivalence under character frequency -> 26-tuple count key in dict","O(N * K) using char count tuple beats O(N * K log K) sorting"
