@@ -1,6 +1,6 @@
 # Pattern-First LeetCode & Interview Prep
 
-![Problems Solved](https://img.shields.io/badge/Solved-2%20/%20150-2ea44f)
+![Problems Solved](https://img.shields.io/badge/Solved-3%20/%20150-2ea44f)
 ![Plan](https://img.shields.io/badge/Plan-12--Week%20NeetCode%20150-0969da)
 ![Language](https://img.shields.io/badge/Language-Python%203-ffd343)
 
@@ -122,14 +122,14 @@ Hints Used: No
 
 *Auto-generated from [`progress.csv`](progress.csv) via `python3 scripts/update_progress.py`.*
 
-- **Unique Problems Solved:** 2 / 150 (1.3%)
-- **Total Attempts Logged:** 2
+- **Unique Problems Solved:** 3 / 150 (2.0%)
+- **Total Attempts Logged:** 3
 
 ### By Pattern
 
 | Pattern | Solved | Target (NC 150) | Attempts | Last Practiced |
 | :--- | :---: | :---: | :---: | :---: |
-| [01-arrays-hashing](patterns/01-arrays-hashing/README.md) | 2 | 9 | 2 | 2026-11-25 |
+| [01-arrays-hashing](patterns/01-arrays-hashing/README.md) | 3 | 9 | 3 | 2026-11-26 |
 | [02-two-pointers](patterns/02-two-pointers/README.md) | 0 | 5 | 0 | — |
 | [03-sliding-window](patterns/03-sliding-window/README.md) | 0 | 6 | 0 | — |
 | [04-stack](patterns/04-stack/README.md) | 0 | 7 | 0 | — |
@@ -151,4 +151,5 @@ Hints Used: No
 | :--- | :--- | :---: | :---: | :--- |
 | `0001-two-sum` | `01-arrays-hashing` | Solved | 2026-12-02 | Need O(1) complement lookup while iterating once -> hash map value-to-index |
 | `0049-group-anagrams` | `01-arrays-hashing` | Solved | 2026-12-02 | Group strings by equivalence under character frequency -> 26-tuple count key in dict |
+| `0217-contains-duplicate` | `01-arrays-hashing` | Solved | 2026-12-03 | Need O(1) duplicate detection while scanning once -> check and insert into a set |
 <!-- PROGRESS_END -->

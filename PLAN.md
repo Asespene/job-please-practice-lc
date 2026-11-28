@@ -31,7 +31,7 @@ Aim for **~6–8 hours/week** split across high-focus blocks:
 ### Week 1: Arrays & Hashing + Two Pointers (12 problems)
 - **01-arrays-hashing (8):**
   - [x] `0001` Two Sum (Easy)
-  - [ ] `0217` Contains Duplicate (Easy)
+  - [x] `0217` Contains Duplicate (Easy)
   - [ ] `0242` Valid Anagram (Easy)
   - [x] `0049` Group Anagrams (Medium)
   - [ ] `0347` Top K Frequent Elements (Medium)

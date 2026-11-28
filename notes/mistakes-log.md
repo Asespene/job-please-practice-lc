@@ -22,3 +22,4 @@ Log every bug, misread constraint, off-by-one error, or missed edge case you enc
 | :--- | :--- | :--- | :--- | :--- |
 | 2026-11-25 | `0001-two-sum` | `01-arrays-hashing` | (Example) If you populate the full dict before scanning, `[3, 3]` with target `6` can overwrite index `0` | Check `target - num in seen` first, then set `seen[num] = i` in a single pass |
 | 2026-11-25 | `0049-group-anagrams` | `01-arrays-hashing` | (Example) Lists cannot be dict keys (`TypeError: unhashable type: 'list'`) | Convert 26-char frequency `list` to `tuple(counts)` before indexing `defaultdict(list)` |
+| 2026-11-26 | `0217-contains-duplicate` | `01-arrays-hashing` | Checked/added index `i` instead of value `nums[i]` inside `for i in range(len(nums))` | Prefer `for num in nums:` when index isn't needed; otherwise always index `nums[i]` |
