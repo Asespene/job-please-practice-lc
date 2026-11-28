@@ -123,13 +123,13 @@ Hints Used: No
 *Auto-generated from [`progress.csv`](progress.csv) via `python3 scripts/update_progress.py`.*
 
 - **Unique Problems Solved:** 3 / 150 (2.0%)
-- **Total Attempts Logged:** 3
+- **Total Attempts Logged:** 4
 
 ### By Pattern
 
 | Pattern | Solved | Target (NC 150) | Attempts | Last Practiced |
 | :--- | :---: | :---: | :---: | :---: |
-| [01-arrays-hashing](patterns/01-arrays-hashing/README.md) | 3 | 9 | 3 | 2026-11-26 |
+| [01-arrays-hashing](patterns/01-arrays-hashing/README.md) | 3 | 9 | 4 | 2026-11-27 |
 | [02-two-pointers](patterns/02-two-pointers/README.md) | 0 | 5 | 0 | — |
 | [03-sliding-window](patterns/03-sliding-window/README.md) | 0 | 6 | 0 | — |
 | [04-stack](patterns/04-stack/README.md) | 0 | 7 | 0 | — |
@@ -149,6 +149,7 @@ Hints Used: No
 
 | Problem | Pattern | Last Result | Next Review | Cue |
 | :--- | :--- | :---: | :---: | :--- |
+| `0242-valid-anagram` | `01-arrays-hashing` | Hinted | 2026-11-30 | Need identical character frequencies in two strings -> count chars into hash maps and compare |
 | `0001-two-sum` | `01-arrays-hashing` | Solved | 2026-12-02 | Need O(1) complement lookup while iterating once -> hash map value-to-index |
 | `0049-group-anagrams` | `01-arrays-hashing` | Solved | 2026-12-02 | Group strings by equivalence under character frequency -> 26-tuple count key in dict |
 | `0217-contains-duplicate` | `01-arrays-hashing` | Solved | 2026-12-03 | Need O(1) duplicate detection while scanning once -> check and insert into a set |
